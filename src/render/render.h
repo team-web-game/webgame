@@ -12,6 +12,5 @@
 extern GLFWwindow *r_window;
 
 void r_open_context();
-void r_frame();
 
 #endif // RENDER_H_

@@ -1,8 +1,8 @@
 
-#ifndef FOUNDATION_H_
-#define FOUNDATION_H_
+#ifndef BASE_H_
+#define BASE_H_
 
 void b_force_exit(int code);
 
-#endif // FOUNDATION_H_
+#endif // BASE_H_
 
