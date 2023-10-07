@@ -4,6 +4,8 @@
 
 #ifdef __EMSCRIPTEN__
 #define GLFW_INCLUDE_ES3
+#else
+#include <glad/gl.h>
 #endif
 
 #include <webgame.h>

@@ -19,7 +19,5 @@ if(NOT EMSCRIPTEN)
     )
 
     fetchcontent_makeavailable(glfw)
-elseif()
-    find_package(GLFW REQUIRED)
 endif()
 
