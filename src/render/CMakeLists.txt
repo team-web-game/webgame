@@ -1,6 +1,7 @@
 
 add_library(webgame_render STATIC
-    render.c
+    app.cpp
+    app.h
 )
 target_include_directories(webgame_render PUBLIC ..)
 

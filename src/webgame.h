@@ -1,8 +1,6 @@
 
-#ifndef WEBGAME_H_
-#define WEBGAME_H_
+#pragma once
 
-#include <base/base.h>
-
-#endif // WEBGAME_H_
+#define WEBGAME_NAMESPACE_BEGIN(subspace) namespace webgame { namespace subspace {
+#define WEBGAME_NAMESPACE_END(subspace) } }
 

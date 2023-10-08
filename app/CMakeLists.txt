@@ -1,6 +1,6 @@
 
 add_executable(webgame_app
-    main.c
+    main.cpp
 )
 target_link_libraries(webgame_app PUBLIC webgame::script webgame::render)
 

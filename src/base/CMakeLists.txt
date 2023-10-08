@@ -1,6 +1,6 @@
 
 add_library(webgame_base STATIC
-    base.c
+    base.cpp
 )
 target_include_directories(webgame_base PUBLIC ..)
 
