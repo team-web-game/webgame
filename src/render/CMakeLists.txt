@@ -2,6 +2,14 @@
 add_library(webgame_render STATIC
     app.cpp
     app.h
+    file_mesh.cpp
+    file_mesh.h
+    geometry.cpp
+    geometry.h
+    mesh.cpp
+    mesh.h
+    render.h
+    render_error.h
 )
 target_include_directories(webgame_render PUBLIC ..)
 

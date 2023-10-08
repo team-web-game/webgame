@@ -1,15 +1,12 @@
 
 include(FetchContent)
 
-set(CGLM_SHARED OFF CACHE BOOL "" FORCE)
-set(CGLM_STATIC ON CACHE BOOL "" FORCE)
-
-fetchcontent_declare(cglm
-    GIT_REPOSITORY https://github.com/recp/cglm.git
-    GIT_TAG v0.9.1
+fetchcontent_declare(glm
+    GIT_REPOSITORY https://github.com/g-truc/glm.git
+    GIT_TAG 8b94f970d9666f77f4400103e31aaa4a79a7edef
 )
 
-fetchcontent_makeavailable(cglm)
+fetchcontent_makeavailable(glm)
 
 if(NOT EMSCRIPTEN)
     fetchcontent_declare(glfw
